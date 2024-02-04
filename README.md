@@ -29,6 +29,7 @@ Follow these instructions to get the HealthCare project up and running on your l
 - Java Development Kit (JDK)
 - Spring Boot
 - Maven
+- mysql
 
 ### Endpoints
 - GET /api/appointments: Retrieve a list of all appointments.
@@ -36,3 +37,5 @@ Follow these instructions to get the HealthCare project up and running on your l
 - PUT /api/appointments/{appointmentId}: Update an existing appointment.
 - DELETE /api/appointments/{appointmentId}: Delete an appointment.
 - GET /api/patients/{patientId}: retrieve a patient details
+
+  need to create mysql table for patient and appointment
